@@ -15,7 +15,7 @@ body {
     height: 100vh;
 }
 
-.middle {
+main {
     flex-direction: column;
     width: 27%;
     height: 75%;
@@ -27,22 +27,22 @@ body {
     align-items: center;
 }
 
-.middle img {
+main img {
     width: 87%;
     height: 60%;
     margin-top: 1.4rem;
     border-radius: 0.9rem;
 }
 
-.middle h4 {
+main h1 {
 font-weight: 700;
 font-family: 'Outfit', sans-serif;
-font-size: 25px;
+font-size: 20px;
 padding: 1.6rem 1.4rem;
 color: hsl(218, 44%, 22%);
 }
 
-.middle p{
+main p{
     font-weight: 400;
     font-size: 17px;
     font-family: 'Outfit', sans-serif;
@@ -51,12 +51,12 @@ color: hsl(218, 44%, 22%);
 }
 
 @media only screen and (max-width: 375px) {
-    .middle {
+    main {
     width: 80%;
     height: 88%;
     display: flex;
 }
-    .middle p{
+    main p{
     margin-bottom: 1.5rem;
     }
 }
